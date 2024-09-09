@@ -57,7 +57,7 @@ public class WalletViewModel extends ViewModel {
     // + totalRolls
     totalRolls++;
 
-    int value=mDie.value();
+    int value = mDie.value();
 
     // set currRoll
     currRoll = value;
@@ -139,5 +139,22 @@ public class WalletViewModel extends ViewModel {
   public int previousRoll() {
     // TODO implement method
     return prevRoll;
+  }
+
+  // setters
+  public void setDie(Die d) {
+    mDie = d;
+  }
+
+  public void setPrevRoll(int prev){
+    this.prevRoll = prev;
+  }
+
+  public void setCurrRoll(int curr){
+    this.currRoll = curr;
+  }
+
+  public void setBalance(int balance){
+    this.mBalance = balance;
   }
 }
