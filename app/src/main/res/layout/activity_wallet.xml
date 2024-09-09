@@ -18,19 +18,22 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        android:gravity="center"
+        android:focusable="true">
         <TextView
             android:id="@+id/txt_balance_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/coins"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:focusable="false"/>
         <TextView
             android:id="@+id/txt_coins"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="@string/zero" />
+            android:text="@string/zero"
+            android:focusable="false"/>
     </LinearLayout>
 
     <Button
@@ -47,81 +50,110 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        android:gravity="center"
+        android:focusable="true">
         <TextView
             android:id="@+id/txt_prev_roll_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/previous_roll"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:focusable="false"/>
         <TextView
             android:id="@+id/txt_prev_roll"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="@string/zero" />
+            android:text="@string/zero"
+            android:focusable="false"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center">
-        <TextView
-            android:id="@+id/txt_single_sixes_label"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/sixes_rolled"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/txt_single_sixes"
+            android:focusable="true">
+            <TextView
+                android:id="@+id/txt_single_sixes_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sixes_rolled"
+                android:textStyle="bold"
+                android:focusable="false"/>
+            <TextView
+                android:id="@+id/txt_single_sixes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/zero"
+                android:focusable="false"/>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="@string/zero" />
-
-        <TextView
-            android:id="@+id/txt_total_rolls_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/total_dice_rolled"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/txt_total_rolls"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="@string/zero" />
+            android:focusable="true">
+            <TextView
+                android:id="@+id/txt_total_rolls_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_dice_rolled"
+                android:textStyle="bold"
+                android:focusable="false"/>
+            <TextView
+                android:id="@+id/txt_total_rolls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/zero"
+                android:focusable="false"/>
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center">
-        <TextView
-            android:id="@+id/txt_double_sixes_label"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/double_sixes"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/txt_double_sixes"
+            android:focusable="true">
+            <TextView
+                android:id="@+id/txt_double_sixes_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/double_sixes"
+                android:textStyle="bold"
+                android:focusable="false"/>
+            <TextView
+                android:id="@+id/txt_double_sixes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/zero"
+                android:focusable="false"/>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="@string/zero" />
-
-        <TextView
-            android:id="@+id/txt_double_others_label"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/double_others"
-            android:textStyle="bold"/>
-        <TextView
-            android:id="@+id/txt_double_others"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="@string/zero" />
+            android:focusable="true">
+            <TextView
+                android:id="@+id/txt_double_others_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/double_others"
+                android:textStyle="bold"
+                android:focusable="false"/>
+            <TextView
+                android:id="@+id/txt_double_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="@string/zero"
+                android:focusable="false"/>
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
