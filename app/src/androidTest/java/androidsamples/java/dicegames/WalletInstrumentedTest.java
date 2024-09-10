@@ -200,4 +200,26 @@ public class WalletInstrumentedTest {
     onView(withId(R.id.txt_coins)).check(matches(withText(Integer.toString(oldBalance))));
     onView(withId(R.id.txt_double_others)).check(matches(withText(Integer.toString(oldDoubleOthers))));
   }
+
+  @Test
+  public void BalanceIncrWithRotation() {
+    when(mDie.value()).thenReturn(6);
+
+    activityRule.getScenario().onActivity(activity -> {
+      mWalletVM = new ViewModelProvider(activity).get(WalletViewModel.class);
+      mWalletVM.setDie(mDie);
+    });
+
+    mWalletVM.setBalance(100);
+    mWalletVM.setCurrRoll(4);
+
+    onView(withId(R.id.btn_die)).perform(click());
+    onView(withId(R.id.txt_coins)).check(matches(withText("105")));
+
+    // rotate
+    activityRule.getScenario().recreate();
+
+    onView(withId(R.id.txt_coins)).check(matches(withText("105")));
+  }
+
 }

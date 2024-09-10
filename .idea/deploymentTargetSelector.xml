@@ -24,10 +24,10 @@
         </DropdownSelection>
         <DialogSelection />
       </SelectionState>
-      <SelectionState runConfigName="BalanceIncr()">
+      <SelectionState runConfigName="BalanceDecr()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="BalanceDecr()">
+      <SelectionState runConfigName="BalanceIncrWithRotation()">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
