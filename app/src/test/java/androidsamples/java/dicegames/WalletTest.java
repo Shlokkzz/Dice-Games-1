@@ -84,7 +84,7 @@ public class WalletTest {
   }
 
   @Test
-  public void totalStatRollIncr(){
+  public void totalStatRollIncr1(){
     int oldBalance = mWalletVM.balance();
     int oldTotalRolls = mWalletVM.totalRolls();
     int oldSingleSixes = mWalletVM.singleSixes();

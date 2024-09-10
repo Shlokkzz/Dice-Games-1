@@ -183,7 +183,7 @@ public class WalletInstrumentedTest {
       mWalletVM.setDie(mDie);
     });
     mWalletVM.setBalance(100);
-    // double others ++
+    // nothing
     mWalletVM.setCurrRoll(5);
 
     int oldBalance = mWalletVM.balance();

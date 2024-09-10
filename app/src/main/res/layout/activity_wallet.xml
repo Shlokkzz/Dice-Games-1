@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--sync issue -> android:accessibilityLiveRegion="polite"-->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -33,7 +36,8 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:text="@string/zero"
-            android:focusable="false"/>
+            android:focusable="false"
+            android:accessibilityLiveRegion="polite"/>
     </LinearLayout>
 
     <Button
@@ -45,7 +49,8 @@
         android:text="@string/zero"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
-        android:textSize="85sp" />
+        android:textSize="85sp"
+        android:accessibilityLiveRegion="polite"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -65,7 +70,8 @@
             android:layout_height="wrap_content"
             android:padding="16dp"
             android:text="@string/zero"
-            android:focusable="false"/>
+            android:focusable="false"
+            android:accessibilityLiveRegion="polite"/>
     </LinearLayout>
 
     <LinearLayout
@@ -89,7 +95,8 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:text="@string/zero"
-                android:focusable="false"/>
+                android:focusable="false"
+                android:accessibilityLiveRegion="polite"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -108,7 +115,8 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:text="@string/zero"
-                android:focusable="false"/>
+                android:focusable="false"
+                android:accessibilityLiveRegion="polite"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -133,7 +141,8 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:text="@string/zero"
-                android:focusable="false"/>
+                android:focusable="false"
+                android:accessibilityLiveRegion="polite"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
@@ -152,7 +161,8 @@
                 android:layout_height="wrap_content"
                 android:padding="16dp"
                 android:text="@string/zero"
-                android:focusable="false"/>
+                android:focusable="false"
+                android:accessibilityLiveRegion="polite"/>
         </LinearLayout>
     </LinearLayout>
 

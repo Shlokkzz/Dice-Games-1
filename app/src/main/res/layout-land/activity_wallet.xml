@@ -46,7 +46,8 @@
                     android:layout_height="wrap_content"
                     android:padding="10dp"
                     android:text="@string/zero"
-                    android:focusable="false"/>
+                    android:focusable="false"
+                    android:accessibilityLiveRegion="polite"/>
             </LinearLayout>
 
             <Button
@@ -58,7 +59,8 @@
                 android:text="@string/zero"
                 android:textAlignment="center"
                 android:textColor="@color/colorAccent"
-                android:textSize="85sp" />
+                android:textSize="85sp"
+                android:accessibilityLiveRegion="polite"/>
 
         </LinearLayout>
     </LinearLayout>
@@ -86,7 +88,8 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:text="@string/zero"
-                android:focusable="false"/>
+                android:focusable="false"
+                android:accessibilityLiveRegion="polite"/>
         </LinearLayout>
 
         <LinearLayout
@@ -110,7 +113,8 @@
                     android:layout_height="wrap_content"
                     android:padding="10dp"
                     android:text="@string/zero"
-                    android:focusable="false"/>
+                    android:focusable="false"
+                    android:accessibilityLiveRegion="polite"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -129,7 +133,8 @@
                     android:layout_height="wrap_content"
                     android:padding="10dp"
                     android:text="@string/zero"
-                    android:focusable="false"/>
+                    android:focusable="false"
+                    android:accessibilityLiveRegion="polite"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -148,7 +153,8 @@
                     android:layout_height="wrap_content"
                     android:padding="10dp"
                     android:text="@string/zero"
-                    android:focusable="false"/>
+                    android:focusable="false"
+                    android:accessibilityLiveRegion="polite"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -167,7 +173,8 @@
                     android:layout_height="wrap_content"
                     android:padding="10dp"
                     android:text="@string/zero"
-                    android:focusable="false"/>
+                    android:focusable="false"
+                    android:accessibilityLiveRegion="polite"/>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
