@@ -59,7 +59,7 @@ This app simulates a Wallet Activity for earning and losing coins based on dice 
 - **Accessibility Scanner**: Initially, the Accessibility Scanner flagged some issues regarding small touch targets. I resolved these by increasing button sizes and ensuring adequate spacing between interactive elements.
 
 ## Stats
-- **Hours Spent:** Approximately 4 hours
+- **Hours Spent:** Approximately 10 hours
 - **Pair Programming Usage Rating:** 4 out of 5
-- **Assignment Difficulty Rating:** 6 out of 10
+- **Assignment Difficulty Rating:** 7 out of 10
 
